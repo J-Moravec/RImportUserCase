@@ -1,5 +1,3 @@
-library(tools)
-
 to_title = function(text){
-    toTitleCase(text)
+    tools::toTitleCase(text)
     }
